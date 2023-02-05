@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "baseUrl": "."
+  },
+  "include": [
+    "src"
+, "14-useOnScreen", "public/locals"  ]
+}

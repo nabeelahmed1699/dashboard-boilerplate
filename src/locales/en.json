@@ -1,0 +1,9 @@
+{
+  "hi":"hi",
+  "bye":"bye",
+  "nested":{"value":"tested"},
+  "search":"Search",
+  "fees":"Fees",
+  "dashboard":"Dashboard",
+  "attendence":"Attendence"
+}
