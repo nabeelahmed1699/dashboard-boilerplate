@@ -9,7 +9,7 @@ import Layout from 'src/layout/index';
 import NotFoundPage from 'src/pages/404';
 import Login from 'src/pages/Login';
 
-const RouterComponent = () => {
+const RouterComponent = ({ isDarkMode, toggleDarkMode }) => {
 	return (
 		<>
 			<Routes>

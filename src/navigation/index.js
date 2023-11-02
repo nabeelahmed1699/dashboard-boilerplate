@@ -14,12 +14,17 @@ export const navlinks = [
 	},
 	{
 		label: 'fees',
-		icon:(isActive)=> <ReceiptIcon sx={{ color: isActive ? activeColor : nonActive }}  />,
+		icon: (isActive) => <ReceiptIcon sx={{ color: isActive ? activeColor : nonActive }} />,
 		route: '/fees',
 	},
 	{
 		label: 'attendence',
-		icon:(isActive)=> <PunchClockIcon sx={{ color: isActive ? activeColor : nonActive }}  />,
+		icon: (isActive) => <PunchClockIcon sx={{ color: isActive ? activeColor : nonActive }} />,
+		route: '/attendance',
+	},
+	{
+		label: 'attendence',
+		icon: (isActive) => <PunchClockIcon sx={{ color: isActive ? activeColor : nonActive }} />,
 		route: '/attendance',
 	},
 ];
